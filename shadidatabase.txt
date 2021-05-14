@@ -1,0 +1,51 @@
+create database shadi;
+
+use shadi;
+
+create table candidate
+(
+    id int,
+    name varchar(20),
+    gender varchar(20),
+    age int
+);
+
+create table registration
+(
+    regid int,
+    cname varchar(20),
+    dob varchar(20),
+    gender varchar(20),
+    matitalstat varchar(20),
+    qual varchar(20),
+    lvcity varchar(20),
+    state varchar(20),
+    height float,
+    colour varchar(20),
+    working varchar(20),
+    income varchar(20) 
+
+);
+create table login
+(
+   role varchar(20),
+   userid varchar(20), 
+   pass varchar(20) 
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
